@@ -1,0 +1,104 @@
+body
+{
+background-image: url(https://th.bing.com/th/id/R.229474fa4eadeae7ae6a5a024ab54084?rik=DmhXv9I4w6Cllg&riu=http%3a%2f%2fthirdmonk.net%2fpostcont%2f2014%2f08%2fhelix-nebula.jpg&ehk=qRc%2b3XaLoL4KSmvTGZeKTdpS86MzfFT%2bh2t53GjaM6M%3d&risl=&pid=ImgRaw&r=0);
+background-size: cover;
+font-family:sans-sarif;
+box-sizing:boarder-box;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width : 100%;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+  width : 320px;
+  text-align : center;
+}
+
+ul li a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  background: grey;
+  width:300px;
+}
+
+/* Style the dropdown menus */
+ul ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #f0f0f0;
+  padding: 0;
+}
+
+ul li:hover > ul {
+  display: inherit;
+}
+
+ul ul li {
+  width: 200px;
+  float: none;
+  display: list-item;
+  position: relative;
+}
+
+ul ul ul li {
+  position: relative;
+  top: -60px;
+  left: 200px;
+}
+
+/* Style the nested dropdown menus */
+ul li:hover > ul > li {
+  background: #ccc;
+  border-bottom: 1px solid #fff;
+  position: relative;
+}
+
+ul li:hover > ul > li:last-child {
+  border-bottom: none;
+}
+
+ul ul li:hover > ul {
+  display: inherit;
+}
+
+ul ul ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+
+ul ul li:hover > ul {
+  display: inherit;
+}
+
+/* Style the hover effect on menu items */
+ul li a:hover {
+  background: #555;
+  color: #fff;
+}
+
+ul ul li a:hover {
+  background: #777;
+  color: #fff;
+}
+
+ul ul ul li a:hover {
+  background: #999;
+  color: #fff;
+}
+h1
+{background-size:cover;
+background-position:center;
+font-family:sans-sarif;
+box-sizing:boarder-box;
+}
